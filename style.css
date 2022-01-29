@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2, 0, 19);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+    font-size: 1.5em;
+}
+
+h1,
+h2,
+p {
+    color: white;
+    padding: 5px 0;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+li {
+    color: white;
+}
+
+ol li:nth-child(2) {
+    padding: 0 0 15px 0;
+}
+
+#title {
+    font-size: 3rem;
+}
